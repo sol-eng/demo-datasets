@@ -1,0 +1,39 @@
+---
+title: "Create DuckDB"
+format: html
+editor: visual
+---
+
+## Setup
+
+```{r}
+library(duckdb)
+library(tidyverse)
+
+# Create database file
+con <- dbConnect(duckdb(), dbdir = "database/demo-datasets.db")
+```
+
+## Write CSVs to DuckDB
+
+```{r}
+csv_files <- c("dataprojects/Environmental/aqi.csv",
+               "dataprojects/Finance/stocks.csv",
+               "dataprojects/Public-Health/covid.csv")
+
+# Iterate through the CSV files and write them to the database
+for (csv_file in csv_files) {
+  # Read the CSV file
+  data <- read_csv(csv_file, show_col_types = FALSE)
+  
+  # Write the data to the database
+  table_name <- tools::file_path_sans_ext(basename(csv_file))  # Use file name as the table name
+  dbWriteTable(con, name = table_name, value = data)
+}
+```
+
+## Disconnect
+
+```{r}
+dbDisconnect(con)
+```

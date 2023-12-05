@@ -1,0 +1,77 @@
+---
+title: "Covid Data"
+format: html
+editor: visual
+---
+
+::: callout-warning
+## Data Manipulation Disclaimer
+
+The data presented here has been intentionally manipulated for exploratory and teaching purposes. It should not be considered accurate or used for any practical applications. Please exercise caution and use it solely for educational or experimental purposes.
+:::
+
+**Source:** https://github.com/CSSEGISandData/COVID-19
+
+**About:** COVID data curated by the Johns Hopkins University Center for Systems Science and Engineering. Raw data is analyzed to show number of new COVID cases per day in the USA by state. On March 10, 2023, the Johns Hopkins Coronavirus Resource Center ceased its collecting and reporting of global COVID-19 data.
+
+## Clean up
+
+```{r}
+#| echo: true
+#| output: false
+
+library(tidyverse)
+library(janitor)
+
+# Read in raw data
+covid_cases <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv", show_col_types = FALSE) |> 
+  
+  # Pivot data
+  pivot_longer(cols = matches("^\\d"), names_to = "Date", values_to = "Cases") |> 
+  
+  # Select columns of interest
+  select(Province_State, Date, Cases) |> 
+  mutate(Date = mdy(Date)) |> 
+  
+  # Calculate number of new cases per day
+  group_by(Province_State, Date) |> 
+  summarise(State_Count = sum(Cases)) |>
+  mutate(New_Cases = State_Count - lag(State_Count)) |>
+  
+  # Remove negative new_cases (likely reporting correction)
+  filter(New_Cases >= 0) |> 
+  
+  # Clean Names
+  clean_names()
+
+# Save data
+write_csv(covid_cases, "covid.csv")
+```
+
+## Final Data
+
+### Dimensions
+
+`r ncol(covid_cases)` Columns
+
+`r nrow(covid_cases)` Rows
+
+### Column Information
+
+`province_state`: State or province in the United States of America.
+
+`date`: Date of reporting.
+
+`state_count`: Total number of confirmed COVID cases in state as of `Date`.
+
+`new_cases`: Number of new confirmed COVID cases on `Date`.
+
+## Preview
+
+```{r}
+#| echo: false
+
+library(reactable)
+
+reactable(covid_cases)
+```

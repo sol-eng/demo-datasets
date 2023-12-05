@@ -1,0 +1,83 @@
+---
+title: "AQI"
+subtitle: "2022 Air Quality Index (AQI) data in the USA by County"
+format: html
+editor: visual
+---
+
+::: callout-warning
+## Data Manipulation Disclaimer
+
+The data presented here has been intentionally manipulated for exploratory and teaching purposes. It should not be considered accurate or used for any practical applications. Please exercise caution and use it solely for educational or experimental purposes.
+:::
+
+**Source:** https://www.epa.gov/outdoor-air-quality-data
+
+**About:** The Environmental Protection Agency (EPA) air quality data collected at outdoor monitors across the USA. This data shows air quality data for the year 2022 in the USA by county.
+
+## Clean up
+
+```{r}
+#| echo: true
+#| output: false
+library(tidyverse)
+library(janitor)
+
+# Read in raw data
+aqi <- read_csv("annual_aqi_by_county_2022.csv", show_col_types = FALSE) |> 
+  
+  # Clean column names
+  janitor::clean_names() |> 
+  
+  # Select columns of interest
+  select(state, county, days_with_aqi:median_aqi) 
+
+# Save data
+write_csv(aqi, "aqi.csv")
+```
+
+## Final Data
+
+### Dimensions
+
+`r ncol(aqi)` Columns
+
+`r nrow(aqi)` Rows
+
+### Column Information
+
+[EPA About Air Quality Reports](https://www.epa.gov/outdoor-air-quality-data/about-air-data-reports)
+
+`state`: State in the United States of America.
+
+`county`: County in the United States of America.
+
+`days with aqi`: Number of days in year having an Air Quality Index (AQI) value. This is the number of days on which measurements from any monitoring site in the county were reported.
+
+`good_days`: Number of days in the year having an AQI value 0 through 50.
+
+`moderate_days`: Number of days in the year having and AQI value 51 through 100.
+
+`unhealthy_for_sensitive_groups_days`: Number of days in the year having an AQI value 101 through 150.
+
+`unhealthy_days`: Number of days in the year having an AQI value 151 through 200.
+
+`very_unhealthy_days`: Number of days in the year having an AQI value 201 through 300.
+
+`hazardous_days`: Number of days in the year having an AQI value 301 or higher.
+
+`max_aqi`: The highest daily AQI value in the year.
+
+`x90th_percentile_aqi`: 90 percent of daily AQI values during the year were less than or equal to the 90th percentile value.
+
+`median_aqi`: Half of daily AQI values during the year were less than or equal to the median value, and half equaled or exceeded it.
+
+## Preview
+
+```{r}
+#| echo: false
+
+library(reactable)
+
+reactable::reactable(aqi)
+```

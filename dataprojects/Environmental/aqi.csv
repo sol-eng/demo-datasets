@@ -1,0 +1,967 @@
+state,county,days_with_aqi,good_days,moderate_days,unhealthy_for_sensitive_groups_days,unhealthy_days,very_unhealthy_days,hazardous_days,max_aqi,x90th_percentile_aqi,median_aqi
+Alabama,Baldwin,141,119,22,0,0,0,0,96,52,40
+Alabama,Clay,58,50,8,0,0,0,0,64,52,27
+Alabama,DeKalb,242,225,17,0,0,0,0,97,48,37
+Alabama,Elmore,117,110,7,0,0,0,0,67,47,37
+Alabama,Etowah,179,140,39,0,0,0,0,93,58,42
+Alabama,Jefferson,182,89,91,2,0,0,0,105,74,51
+Alabama,Madison,181,134,47,0,0,0,0,97,60,43
+Alabama,Mobile,180,143,37,0,0,0,0,93,58,42
+Alabama,Montgomery,181,148,33,0,0,0,0,95,58,41
+Alabama,Morgan,181,136,45,0,0,0,0,97,60,43
+Alabama,Russell,180,130,50,0,0,0,0,96,63,44
+Alabama,Shelby,122,109,12,1,0,0,0,105,51,41
+Alabama,Sumter,180,161,19,0,0,0,0,79,51,34
+Alabama,Tuscaloosa,139,121,18,0,0,0,0,87,53,37
+Alaska,Anchorage,244,214,29,1,0,0,0,125,54,21
+Alaska,Denali,211,207,4,0,0,0,0,61,44,38
+Alaska,Fairbanks North Star,201,140,45,8,7,1,0,280,85,39
+Alaska,Juneau,188,171,17,0,0,0,0,89,46,14
+Alaska,Matanuska-Susitna,238,221,17,0,0,0,0,83,35,10
+Arizona,Apache,273,271,2,0,0,0,0,57,29,11
+Arizona,Cochise,273,203,69,1,0,0,0,101,64,45
+Arizona,Coconino,273,196,76,1,0,0,0,101,67,47
+Arizona,Gila,273,158,97,16,2,0,0,177,90,48
+Arizona,La Paz,267,187,79,1,0,0,0,130,71,45
+Arizona,Maricopa,303,60,168,56,13,6,0,264,133,74
+Arizona,Mohave,273,257,15,1,0,0,0,115,36,18
+Arizona,Navajo,272,221,51,0,0,0,0,93,61,43
+Arizona,Pima,273,157,108,8,0,0,0,142,78,48
+Arizona,Pinal,271,73,174,23,1,0,0,159,100,66
+Arizona,Santa Cruz,270,224,46,0,0,0,0,93,60,32
+Arizona,Yavapai,273,249,24,0,0,0,0,87,49,42
+Arizona,Yuma,273,169,95,9,0,0,0,142,80,46
+Arkansas,Arkansas,35,31,4,0,0,0,0,60,54,28
+Arkansas,Ashley,36,34,2,0,0,0,0,61,48,27
+Arkansas,Clark,241,232,9,0,0,0,0,90,45,36
+Arkansas,Crittenden,272,244,25,2,1,0,0,156,51,32
+Arkansas,Garland,39,36,3,0,0,0,0,67,48,33
+Arkansas,Jackson,37,32,5,0,0,0,0,67,55,28
+Arkansas,Newton,181,169,11,1,0,0,0,105,48,39
+Arkansas,Polk,192,186,4,2,0,0,0,105,47,36
+Arkansas,Pulaski,272,190,81,1,0,0,0,115,61,43
+Arkansas,Union,37,26,11,0,0,0,0,66,58,32
+Arkansas,Washington,200,189,10,1,0,0,0,108,48,38
+California,Alameda,244,170,72,2,0,0,0,122,61,41
+California,Amador,181,173,8,0,0,0,0,71,45,35
+California,Butte,187,144,43,0,0,0,0,90,67,43
+California,Calaveras,180,155,25,0,0,0,0,67,54,38
+California,Colusa,179,150,29,0,0,0,0,79,55,40
+California,Contra Costa,244,185,59,0,0,0,0,97,57,42
+California,Del Norte,171,163,8,0,0,0,0,70,40,23
+California,El Dorado,181,150,30,1,0,0,0,105,58,43
+California,Fresno,243,77,134,31,1,0,0,151,103,64
+California,Glenn,176,163,13,0,0,0,0,93,48,40
+California,Humboldt,274,269,5,0,0,0,0,68,32,23
+California,Imperial,238,82,122,23,4,2,5,762,114,57
+California,Inyo,304,162,125,11,2,2,2,1445,85,50
+California,Kern,210,81,106,21,2,0,0,152,107,57
+California,Kings,304,76,197,30,1,0,0,187,101,67
+California,Lake,15,15,0,0,0,0,0,33,23,16
+California,Los Angeles,182,18,131,21,12,0,0,192,129,69
+California,Madera,120,70,48,2,0,0,0,112,79,48
+California,Marin,244,230,14,0,0,0,0,87,46,33
+California,Mariposa,212,158,53,1,0,0,0,136,64,45
+California,Merced,90,41,47,2,0,0,0,115,85,53
+California,Mono,181,146,18,2,4,1,10,7577,68,18
+California,Monterey,182,166,16,0,0,0,0,63,49,39
+California,Nevada,243,146,89,8,0,0,0,119,84,48
+California,Orange,182,99,77,4,2,0,0,156,77,49
+California,Placer,243,125,106,12,0,0,0,133,87,50
+California,Plumas,243,147,80,14,2,0,0,157,92,40
+California,Riverside,243,49,110,57,20,2,5,1564,151,77
+California,Sacramento,211,155,51,5,0,0,0,118,80,40
+California,San Benito,212,189,23,0,0,0,0,97,51,42
+California,San Bernardino,211,27,121,41,20,2,0,225,151,76
+California,San Diego,283,156,120,6,1,0,0,156,77,49
+California,San Francisco,243,214,29,0,0,0,0,76,52,33
+California,San Joaquin,182,123,56,3,0,0,0,109,84,43
+California,San Luis Obispo,181,64,115,2,0,0,0,115,72,55
+California,San Mateo,244,211,33,0,0,0,0,75,53,35
+California,Santa Barbara,182,148,34,0,0,0,0,93,56,43
+California,Santa Clara,244,178,64,2,0,0,0,112,64,42
+California,Santa Cruz,181,170,11,0,0,0,0,54,47,35
+California,Shasta,207,186,21,0,0,0,0,71,51,44
+California,Solano,273,222,51,0,0,0,0,90,61,40
+California,Sonoma,244,229,15,0,0,0,0,61,47,32
+California,Stanislaus,186,103,76,7,0,0,0,111,91,48
+California,Sutter,181,116,64,1,0,0,0,102,76,46
+California,Tehama,191,172,19,0,0,0,0,100,50,39
+California,Trinity,178,138,40,0,0,0,0,96,61,22
+California,Tulare,212,70,96,44,2,0,0,156,119,67
+California,Tuolumne,180,177,3,0,0,0,0,71,45,37
+California,Ventura,243,141,98,4,0,0,0,140,80,48
+California,Yolo,254,214,40,0,0,0,0,100,54,41
+Colorado,Adams,281,148,119,14,0,0,0,126,90,50
+Colorado,Arapahoe,276,155,109,12,0,0,0,129,87,48
+Colorado,Archuleta,306,254,48,3,0,1,0,227,58,44
+Colorado,Boulder,275,168,100,7,0,0,0,129,80,48
+Colorado,Clear Creek,264,164,97,3,0,0,0,108,71,49
+Colorado,Delta,143,126,17,0,0,0,0,80,54,44
+Colorado,Denver,281,152,122,7,0,0,0,112,84,49
+Colorado,Douglas,275,166,91,17,1,0,0,169,90,49
+Colorado,El Paso,276,171,103,2,0,0,0,115,77,48
+Colorado,Fremont,74,71,3,0,0,0,0,77,28,12
+Colorado,Garfield,272,248,24,0,0,0,0,84,50,43
+Colorado,Gilpin,273,196,73,4,0,0,0,112,74,46
+Colorado,Gunnison,242,194,47,1,0,0,0,108,64,46
+Colorado,Jackson,31,24,7,0,0,0,0,71,51,46
+Colorado,Jefferson,273,143,99,30,1,0,0,166,101,50
+Colorado,La Plata,306,210,95,1,0,0,0,108,74,47
+Colorado,Larimer,274,137,129,8,0,0,0,126,87,51
+Colorado,Mesa,276,219,56,1,0,0,0,108,58,45
+Colorado,Montezuma,273,218,55,0,0,0,0,87,61,45
+Colorado,Pitkin,68,66,2,0,0,0,0,58,32,13
+Colorado,Prowers,221,202,18,0,1,0,0,158,44,17
+Colorado,Pueblo,235,221,11,3,0,0,0,121,42,19
+Colorado,Rio Blanco,243,162,79,2,0,0,0,122,67,47
+Colorado,Routt,220,220,0,0,0,0,0,43,28,16
+Colorado,San Miguel,76,75,1,0,0,0,0,68,36,15
+Colorado,Weld,277,125,142,10,0,0,0,133,90,51
+Connecticut,Fairfield,181,129,48,4,0,0,0,140,62,44
+Connecticut,Hartford,181,146,34,1,0,0,0,112,60,41
+Connecticut,Litchfield,182,165,16,1,0,0,0,101,50,40
+Connecticut,Middlesex,121,108,13,0,0,0,0,100,54,40
+Connecticut,New Haven,182,134,47,1,0,0,0,105,63,42
+Connecticut,New London,181,161,20,0,0,0,0,80,51,37
+Connecticut,Tolland,116,107,9,0,0,0,0,90,49,40
+Connecticut,Windham,238,222,16,0,0,0,0,93,49,38
+Country Of Mexico,BAJA CALIFORNIA NORTE,273,68,159,29,17,0,0,167,125,61
+Country Of Mexico,SONORA,273,161,110,2,0,0,0,115,72,47
+Delaware,Kent,59,47,12,0,0,0,0,71,55,37
+Delaware,New Castle,60,41,19,0,0,0,0,75,63,42
+Delaware,Sussex,59,49,10,0,0,0,0,72,54,37
+District Of Columbia,District of Columbia,213,153,56,4,0,0,0,128,67,43
+Florida,Alachua,181,164,17,0,0,0,0,84,50,40
+Florida,Baker,181,153,28,0,0,0,0,87,54,41
+Florida,Bay,181,141,40,0,0,0,0,99,58,42
+Florida,Brevard,181,154,27,0,0,0,0,80,54,42
+Florida,Broward,182,142,40,0,0,0,0,100,56,44
+Florida,Citrus,176,160,16,0,0,0,0,68,49,35
+Florida,Collier,179,169,10,0,0,0,0,79,47,38
+Florida,Columbia,179,147,32,0,0,0,0,90,58,41
+Florida,Duval,182,127,55,0,0,0,0,90,61,45
+Florida,Escambia,181,129,51,1,0,0,0,133,64,45
+Florida,Flagler,181,173,8,0,0,0,0,100,47,38
+Florida,Hamilton,123,101,22,0,0,0,0,70,54,40
+Florida,Highlands,179,167,11,1,0,0,0,112,48,39
+Florida,Hillsborough,181,119,61,1,0,0,0,126,67,46
+Florida,Holmes,181,139,42,0,0,0,0,90,56,42
+Florida,Indian River,239,231,8,0,0,0,0,67,47,34
+Florida,Lake,181,169,12,0,0,0,0,87,50,40
+Florida,Lee,181,154,27,0,0,0,0,80,54,41
+Florida,Leon,180,135,45,0,0,0,0,92,59,42
+Florida,Liberty,233,224,9,0,0,0,0,74,47,32
+Florida,Manatee,169,158,11,0,0,0,0,80,49,38
+Florida,Marion,180,151,29,0,0,0,0,93,55,42
+Florida,Martin,181,166,14,1,0,0,0,108,49,40
+Florida,Miami-Dade,182,158,22,2,0,0,0,136,55,41
+Florida,Okaloosa,170,155,15,0,0,0,0,84,49,39
+Florida,Orange,181,154,27,0,0,0,0,97,54,41
+Florida,Osceola,181,169,12,0,0,0,0,80,49,38
+Florida,Palm Beach,181,153,28,0,0,0,0,89,54,40
+Florida,Pasco,181,155,26,0,0,0,0,87,51,42
+Florida,Pinellas,181,140,41,0,0,0,0,87,58,44
+Florida,Polk,181,152,29,0,0,0,0,87,55,41
+Florida,Putnam,151,151,0,0,0,0,0,44,29,18
+Florida,Santa Rosa,181,138,42,1,0,0,0,109,60,43
+Florida,Sarasota,181,140,41,0,0,0,0,100,58,43
+Florida,Seminole,181,160,21,0,0,0,0,87,51,40
+Florida,St. Lucie,175,169,6,0,0,0,0,77,48,37
+Florida,Volusia,181,148,33,0,0,0,0,93,56,42
+Florida,Wakulla,182,153,29,0,0,0,0,96,55,41
+Georgia,Bibb,273,229,44,0,0,0,0,90,55,38
+Georgia,Chatham,273,229,44,0,0,0,0,97,57,39
+Georgia,Chattooga,214,205,9,0,0,0,0,77,47,35
+Georgia,Clarke,243,183,60,0,0,0,0,87,60,44
+Georgia,Clayton,70,60,10,0,0,0,0,69,54,33
+Georgia,Cobb,203,181,22,0,0,0,0,93,51,39
+Georgia,Coffee,71,65,6,0,0,0,0,71,46,28
+Georgia,Columbia,184,178,6,0,0,0,0,71,47,34
+Georgia,Dawson,214,207,6,1,0,0,0,136,47,35
+Georgia,DeKalb,274,198,74,2,0,0,0,147,62,43
+Georgia,Dougherty,241,166,70,4,1,0,0,151,61,36
+Georgia,Douglas,212,186,25,1,0,0,0,133,54,38
+Georgia,Floyd,236,213,23,0,0,0,0,81,50,29
+Georgia,Fulton,274,192,79,2,1,0,0,169,63,45
+Georgia,Glynn,273,238,34,1,0,0,0,106,53,37
+Georgia,Gwinnett,240,188,52,0,0,0,0,97,59,42
+Georgia,Hall,242,196,46,0,0,0,0,76,55,36
+Georgia,Henry,229,188,38,3,0,0,0,105,61,38
+Georgia,Houston,243,198,44,1,0,0,0,102,57,33
+Georgia,Lowndes,232,178,54,0,0,0,0,100,61,35
+Georgia,Murray,181,156,24,1,0,0,0,105,54,40
+Georgia,Muscogee,243,198,43,2,0,0,0,149,56,40
+Georgia,Pike,218,196,22,0,0,0,0,100,51,36
+Georgia,Richmond,273,216,57,0,0,0,0,99,58,40
+Georgia,Rockdale,213,186,27,0,0,0,0,90,54,39
+Georgia,Sumter,207,194,13,0,0,0,0,93,47,34
+Georgia,Walker,235,154,81,0,0,0,0,87,62,43
+Georgia,Washington,241,179,59,3,0,0,0,112,59,40
+Hawaii,Hawaii,209,207,2,0,0,0,0,58,38,26
+Hawaii,Honolulu,182,181,0,1,0,0,0,142,36,29
+Hawaii,Kauai,90,90,0,0,0,0,0,34,19,10
+Hawaii,Maui,181,179,2,0,0,0,0,72,28,18
+Idaho,Ada,182,147,35,0,0,0,0,74,58,43
+Idaho,Bannock,263,196,66,1,0,0,0,106,67,40
+Idaho,Benewah,181,148,33,0,0,0,0,72,58,30
+Idaho,Blaine,173,173,0,0,0,0,0,44,29,17
+Idaho,Boise,181,157,24,0,0,0,0,62,52,23
+Idaho,Bonner,181,177,4,0,0,0,0,61,35,19
+Idaho,Bonneville,176,168,8,0,0,0,0,70,40,19
+Idaho,Butte,212,197,15,0,0,0,0,71,50,43
+Idaho,Canyon,181,152,29,0,0,0,0,73,58,26
+Idaho,Franklin,181,159,22,0,0,0,0,79,54,15
+Idaho,Idaho,302,261,32,3,4,2,0,238,59,36
+Idaho,Kootenai,181,179,2,0,0,0,0,57,25,10
+Idaho,Latah,177,177,0,0,0,0,0,25,5,0
+Idaho,Lemhi,181,131,49,1,0,0,0,112,67,24
+Idaho,Nez Perce,302,275,21,2,4,0,0,180,47,19
+Idaho,Shoshone,181,147,33,1,0,0,0,108,58,23
+Idaho,Twin Falls,169,160,9,0,0,0,0,77,45,18
+Idaho,Valley,170,137,33,0,0,0,0,98,64,23
+Illinois,Adams,206,199,7,0,0,0,0,71,48,39
+Illinois,Champaign,273,224,48,1,0,0,0,126,58,40
+Illinois,Clark,172,156,15,1,0,0,0,101,49,36
+Illinois,Cook,274,157,109,7,1,0,0,151,77,48
+Illinois,DuPage,273,207,65,1,0,0,0,129,62,41
+Illinois,Effingham,208,185,23,0,0,0,0,100,51,38
+Illinois,Hamilton,273,224,49,0,0,0,0,87,60,40
+Illinois,Jersey,273,225,43,5,0,0,0,112,58,41
+Illinois,Jo Daviess,227,213,14,0,0,0,0,84,48,36
+Illinois,Kane,231,180,48,3,0,0,0,129,64,40
+Illinois,Lake,212,170,39,2,1,0,0,159,67,41
+Illinois,Macon,273,220,51,2,0,0,0,115,58,41
+Illinois,Macoupin,271,260,9,2,0,0,0,108,46,36
+Illinois,Madison,273,166,98,9,0,0,0,147,74,47
+Illinois,McHenry,273,204,66,3,0,0,0,126,63,40
+Illinois,McLean,273,211,60,2,0,0,0,129,60,42
+Illinois,Peoria,273,209,64,0,0,0,0,100,61,42
+Illinois,Randolph,273,223,48,2,0,0,0,108,61,42
+Illinois,Rock Island,268,214,54,0,0,0,0,80,61,40
+Illinois,Saint Clair,273,184,88,1,0,0,0,105,67,44
+Illinois,Sangamon,270,222,44,4,0,0,0,126,57,40
+Illinois,Will,273,208,63,2,0,0,0,101,61,41
+Illinois,Winnebago,273,228,45,0,0,0,0,97,58,39
+Indiana,Allen,263,239,22,2,0,0,0,115,50,37
+Indiana,Bartholomew,211,174,36,1,0,0,0,105,61,41
+Indiana,Boone,209,182,26,1,0,0,0,115,58,39
+Indiana,Brown,236,227,9,0,0,0,0,97,47,37
+Indiana,Carroll,272,251,21,0,0,0,0,93,49,36
+Indiana,Clark,271,191,79,1,0,0,0,119,63,44
+Indiana,Delaware,237,205,31,1,0,0,0,115,56,39
+Indiana,Dubois,76,67,9,0,0,0,0,86,53,32
+Indiana,Elkhart,269,234,34,1,0,0,0,105,54,38
+Indiana,Floyd,201,185,16,0,0,0,0,87,48,36
+Indiana,Greene,218,186,30,2,0,0,0,101,58,39
+Indiana,Hamilton,222,174,48,0,0,0,0,100,63,40
+Indiana,Hendricks,232,218,14,0,0,0,0,87,48,37
+Indiana,Henry,72,65,7,0,0,0,0,94,50,29
+Indiana,Howard,243,187,52,4,0,0,0,108,62,40
+Indiana,Knox,226,204,22,0,0,0,0,87,50,39
+Indiana,LaPorte,273,236,33,4,0,0,0,143,58,38
+Indiana,Lake,273,192,76,5,0,0,0,143,65,43
+Indiana,Madison,243,179,60,4,0,0,0,133,64,44
+Indiana,Marion,274,165,101,8,0,0,0,119,71,46
+Indiana,Monroe,232,213,19,0,0,0,0,96,48,28
+Indiana,Perry,212,193,18,1,0,0,0,119,50,39
+Indiana,Porter,272,222,46,4,0,0,0,143,59,41
+Indiana,Posey,212,199,13,0,0,0,0,97,47,34
+Indiana,Shelby,272,246,24,2,0,0,0,115,50,37
+Indiana,Spencer,70,63,7,0,0,0,0,77,51,33
+Indiana,St. Joseph,273,199,69,5,0,0,0,122,67,43
+Indiana,Tippecanoe,177,161,16,0,0,0,0,95,50,24
+Indiana,Vanderburgh,273,197,76,0,0,0,0,100,64,44
+Indiana,Vigo,243,180,61,2,0,0,0,115,59,41
+Indiana,Wabash,241,217,23,1,0,0,0,112,50,39
+Indiana,Warrick,273,236,36,1,0,0,0,101,51,39
+Indiana,Whitley,238,203,34,1,0,0,0,109,55,32
+Iowa,Black Hawk,303,257,46,0,0,0,0,82,54,33
+Iowa,Bremer,243,235,8,0,0,0,0,67,47,37
+Iowa,Cerro Gordo,87,87,0,0,0,0,0,42,29,17
+Iowa,Clinton,303,206,96,1,0,0,0,107,64,42
+Iowa,Harrison,237,210,27,0,0,0,0,84,51,40
+Iowa,Johnson,303,262,41,0,0,0,0,81,54,31
+Iowa,Lee,75,68,7,0,0,0,0,72,48,29
+Iowa,Linn,304,231,73,0,0,0,0,79,56,42
+Iowa,Montgomery,302,277,25,0,0,0,0,74,50,38
+Iowa,Muscatine,304,269,35,0,0,0,0,87,52,31
+Iowa,Palo Alto,304,271,33,0,0,0,0,77,51,38
+Iowa,Polk,304,267,37,0,0,0,0,77,52,39
+Iowa,Pottawattamie,90,83,7,0,0,0,0,66,49,28
+Iowa,Scott,305,232,73,0,0,0,0,96,61,41
+Iowa,Van Buren,304,274,29,1,0,0,0,102,50,39
+Iowa,Woodbury,87,84,3,0,0,0,0,52,45,28
+Kansas,Ford,179,161,18,0,0,0,0,87,53,18
+Kansas,Johnson,181,140,41,0,0,0,0,87,62,40
+Kansas,Leavenworth,181,174,7,0,0,0,0,77,47,38
+Kansas,Neosho,181,134,47,0,0,0,0,94,62,43
+Kansas,Sedgwick,181,124,55,2,0,0,0,119,64,44
+Kansas,Shawnee,181,138,43,0,0,0,0,87,59,44
+Kansas,Sherman,180,163,15,1,0,0,1,495,48,15
+Kansas,Sumner,181,125,55,1,0,0,0,115,61,43
+Kansas,Trego,175,148,26,1,0,0,0,102,60,38
+Kansas,Wyandotte,182,128,54,0,0,0,0,93,63,44
+Kentucky,Bell,181,121,60,0,0,0,0,90,64,44
+Kentucky,Boone,76,62,14,0,0,0,0,97,64,44
+Kentucky,Boyd,184,154,30,0,0,0,0,80,54,40
+Kentucky,Bullitt,119,104,15,0,0,0,0,93,54,43
+Kentucky,Campbell,192,160,31,1,0,0,0,105,58,39
+Kentucky,Carter,182,166,16,0,0,0,0,68,48,38
+Kentucky,Christian,181,145,36,0,0,0,0,83,56,42
+Kentucky,Daviess,181,147,34,0,0,0,0,98,56,42
+Kentucky,Edmonson,213,193,20,0,0,0,0,84,50,39
+Kentucky,Fayette,186,158,28,0,0,0,0,90,58,41
+Kentucky,Greenup,121,110,11,0,0,0,0,71,49,40
+Kentucky,Hancock,121,107,13,1,0,0,0,108,58,43
+Kentucky,Hardin,183,149,34,0,0,0,0,84,59,42
+Kentucky,Jessamine,121,108,13,0,0,0,0,87,51,41
+Kentucky,Livingston,120,100,19,1,0,0,0,105,61,42
+Kentucky,McCracken,181,148,33,0,0,0,0,97,59,40
+Kentucky,Morgan,242,228,14,0,0,0,0,74,47,37
+Kentucky,Oldham,122,108,12,2,0,0,0,112,51,42
+Kentucky,Perry,165,129,35,0,1,0,0,166,58,43
+Kentucky,Pike,181,165,16,0,0,0,0,91,49,38
+Kentucky,Pulaski,181,152,29,0,0,0,0,79,54,39
+Kentucky,Simpson,119,101,18,0,0,0,0,93,61,41
+Kentucky,Trigg,126,116,10,0,0,0,0,80,50,39
+Kentucky,Warren,179,150,29,0,0,0,0,84,56,41
+Kentucky,Washington,242,222,20,0,0,0,0,77,49,39
+Louisiana,Ascension,272,246,26,0,0,0,0,90,50,34
+Louisiana,Bossier,268,192,76,0,0,0,0,99,61,43
+Louisiana,Caddo,271,239,31,1,0,0,0,108,52,38
+Louisiana,Calcasieu,273,180,93,0,0,0,0,100,67,44
+Louisiana,East Baton Rouge,273,207,63,3,0,0,0,141,63,41
+Louisiana,Iberville,273,202,65,6,0,0,0,129,77,41
+Louisiana,Jefferson,269,218,51,0,0,0,0,95,58,40
+Louisiana,Lafayette,273,207,64,2,0,0,0,103,60,40
+Louisiana,Lafourche,259,224,34,1,0,0,0,109,53,37
+Louisiana,Livingston,269,197,69,3,0,0,0,117,64,41
+Louisiana,Orleans,274,246,26,2,0,0,0,102,51,28
+Louisiana,Ouachita,269,244,24,1,0,0,0,105,50,38
+Louisiana,Pointe Coupee,272,253,18,1,0,0,0,112,48,34
+Louisiana,Rapides,60,51,8,1,0,0,0,105,53,30
+Louisiana,St. Bernard,273,212,60,1,0,0,0,108,58,41
+Louisiana,St. James,269,253,16,0,0,0,0,93,47,33
+Louisiana,St. John the Baptist,265,253,12,0,0,0,0,74,47,34
+Louisiana,St. Martin,250,214,36,0,0,0,0,97,58,34
+Louisiana,St. Tammany,273,230,42,1,0,0,0,103,55,37
+Louisiana,Tangipahoa,60,53,7,0,0,0,0,96,54,31
+Louisiana,Terrebonne,59,56,3,0,0,0,0,96,44,30
+Louisiana,West Baton Rouge,272,221,47,4,0,0,0,105,58,39
+Maine,Androscoggin,301,286,15,0,0,0,0,97,45,31
+Maine,Aroostook,273,252,21,0,0,0,0,77,48,33
+Maine,Cumberland,304,284,17,3,0,0,0,109,46,36
+Maine,Hancock,274,250,23,1,0,0,0,112,50,38
+Maine,Kennebec,184,180,4,0,0,0,0,84,44,31
+Maine,Knox,209,203,6,0,0,0,0,80,45,35
+Maine,Oxford,304,293,11,0,0,0,0,65,45,31
+Maine,Penobscot,272,258,14,0,0,0,0,87,46,33
+Maine,Sagadahoc,167,157,10,0,0,0,0,93,47,33
+Maine,Washington,270,268,2,0,0,0,0,58,44,35
+Maine,York,246,230,14,2,0,0,0,126,49,38
+Maryland,Anne Arundel,221,205,16,0,0,0,0,93,49,40
+Maryland,Baltimore,272,228,43,1,0,0,0,122,56,37
+Maryland,Baltimore (City),261,198,61,2,0,0,0,112,64,42
+Maryland,Calvert,122,110,12,0,0,0,0,74,50,40
+Maryland,Carroll,121,103,17,1,0,0,0,112,58,42
+Maryland,Cecil,273,218,54,1,0,0,0,101,61,42
+Maryland,Charles,122,105,17,0,0,0,0,87,54,42
+Maryland,Dorchester,242,212,30,0,0,0,0,93,51,41
+Maryland,Frederick,118,106,11,1,0,0,0,115,58,42
+Maryland,Garrett,274,256,18,0,0,0,0,97,49,39
+Maryland,Harford,273,208,65,0,0,0,0,97,64,43
+Maryland,Howard,182,171,11,0,0,0,0,62,46,31
+Maryland,Kent,181,156,25,0,0,0,0,93,54,40
+Maryland,Montgomery,176,128,47,1,0,0,0,119,60,44
+Maryland,Prince George's,274,229,44,1,0,0,0,101,61,41
+Maryland,Washington,265,240,25,0,0,0,0,87,50,40
+Massachusetts,Barnstable,177,171,6,0,0,0,0,74,44,38
+Massachusetts,Berkshire,181,156,25,0,0,0,0,80,54,40
+Massachusetts,Bristol,181,169,12,0,0,0,0,71,49,39
+Massachusetts,Dukes,172,167,5,0,0,0,0,61,45,39
+Massachusetts,Essex,181,172,9,0,0,0,0,87,47,38
+Massachusetts,Franklin,181,151,30,0,0,0,0,80,55,38
+Massachusetts,Hampden,181,156,25,0,0,0,0,97,55,39
+Massachusetts,Hampshire,181,163,18,0,0,0,0,77,50,40
+Massachusetts,Middlesex,181,165,16,0,0,0,0,68,49,38
+Massachusetts,Norfolk,181,165,16,0,0,0,0,74,50,41
+Massachusetts,Plymouth,181,163,18,0,0,0,0,66,50,40
+Massachusetts,Suffolk,182,154,28,0,0,0,0,84,55,36
+Massachusetts,Worcester,182,149,33,0,0,0,0,70,55,42
+Michigan,Allegan,172,138,29,3,2,0,0,195,64,38
+Michigan,Bay,181,170,11,0,0,0,0,68,40,19
+Michigan,Benzie,120,104,13,2,1,0,0,151,61,39
+Michigan,Berrien,120,91,24,4,1,0,0,156,74,41
+Michigan,Cass,110,95,13,2,0,0,0,119,64,41
+Michigan,Clinton,115,100,15,0,0,0,0,90,51,40
+Michigan,Genesee,180,139,39,2,0,0,0,112,64,40
+Michigan,Huron,122,112,9,1,0,0,0,122,48,37
+Michigan,Ingham,181,139,42,0,0,0,0,93,58,39
+Michigan,Kalamazoo,170,118,51,1,0,0,0,119,67,43
+Michigan,Kent,182,129,49,4,0,0,0,136,66,41
+Michigan,Lenawee,181,146,35,0,0,0,0,97,62,39
+Michigan,Macomb,181,129,50,2,0,0,0,126,71,41
+Michigan,Manistee,129,110,16,2,1,0,0,156,58,38
+Michigan,Mason,120,107,11,1,1,0,0,161,58,38
+Michigan,Missaukee,181,150,30,1,0,0,0,112,54,40
+Michigan,Monroe,30,26,4,0,0,0,0,82,55,27
+Michigan,Muskegon,122,101,15,4,2,0,0,187,61,39
+Michigan,Oakland,141,119,22,0,0,0,0,100,58,37
+Michigan,Ottawa,148,103,41,2,2,0,0,164,70,39
+Michigan,Schoolcraft,180,163,16,1,0,0,0,126,50,36
+Michigan,St. Clair,175,130,43,2,0,0,0,133,66,39
+Michigan,Tuscola,241,218,22,1,0,0,0,105,50,37
+Michigan,Washtenaw,237,195,41,1,0,0,0,101,61,40
+Michigan,Wayne,182,75,98,9,0,0,0,126,84,54
+Michigan,Wexford,238,214,20,4,0,0,0,136,51,38
+Minnesota,Anoka,181,155,26,0,0,0,0,74,51,41
+Minnesota,Becker,173,166,6,1,0,0,0,125,46,38
+Minnesota,Beltrami,86,83,3,0,0,0,0,60,45,28
+Minnesota,Carlton,180,180,0,0,0,0,0,47,42,30
+Minnesota,Cass,89,86,3,0,0,0,0,58,40,23
+Minnesota,Cook,88,88,0,0,0,0,0,43,18,5
+Minnesota,Crow Wing,181,174,7,0,0,0,0,67,45,37
+Minnesota,Dakota,182,176,6,0,0,0,0,57,40,23
+Minnesota,Goodhue,121,112,9,0,0,0,0,71,49,41
+Minnesota,Hennepin,182,151,31,0,0,0,0,95,54,37
+Minnesota,Lake,176,170,6,0,0,0,0,76,46,37
+Minnesota,Lyon,180,161,18,0,1,0,0,163,51,38
+Minnesota,Mille Lacs,31,31,0,0,0,0,0,47,44,39
+Minnesota,Olmsted,181,161,19,1,0,0,0,110,51,38
+Minnesota,Ramsey,181,162,19,0,0,0,0,68,51,27
+Minnesota,Saint Louis,210,201,9,0,0,0,0,71,45,37
+Minnesota,Scott,181,163,18,0,0,0,0,74,50,38
+Minnesota,Stearns,155,142,13,0,0,0,0,71,49,38
+Minnesota,Washington,104,92,12,0,0,0,0,87,51,40
+Minnesota,Wright,181,160,21,0,0,0,0,77,51,39
+Mississippi,Bolivar,273,226,47,0,0,0,0,92,55,39
+Mississippi,DeSoto,273,219,48,6,0,0,0,133,61,40
+Mississippi,Forrest,273,211,61,1,0,0,0,105,58,37
+Mississippi,Hancock,272,228,44,0,0,0,0,88,55,38
+Mississippi,Harrison,273,214,59,0,0,0,0,100,57,39
+Mississippi,Hinds,274,197,75,2,0,0,0,105,62,43
+Mississippi,Jackson,273,225,47,1,0,0,0,101,58,39
+Mississippi,Lauderdale,209,201,8,0,0,0,0,77,47,36
+Mississippi,Lee,214,197,17,0,0,0,0,100,49,40
+Mississippi,Yalobusha,228,217,11,0,0,0,0,100,47,35
+Missouri,Andrew,122,105,17,0,0,0,0,71,51,43
+Missouri,Boone,122,116,6,0,0,0,0,67,49,40
+Missouri,Buchanan,181,155,24,2,0,0,0,106,53,29
+Missouri,Callaway,122,110,12,0,0,0,0,74,50,41
+Missouri,Cass,178,159,19,0,0,0,0,87,51,38
+Missouri,Cedar,167,142,25,0,0,0,0,93,61,39
+Missouri,Clay,181,151,30,0,0,0,0,93,61,39
+Missouri,Clinton,122,104,18,0,0,0,0,80,58,43
+Missouri,Greene,181,137,44,0,0,0,0,94,62,43
+Missouri,Jackson,182,133,49,0,0,0,0,93,61,42
+Missouri,Jasper,181,148,32,1,0,0,0,108,66,40
+Missouri,Jefferson,176,130,44,2,0,0,0,108,64,42
+Missouri,Lincoln,122,104,18,0,0,0,0,97,54,42
+Missouri,Monroe,181,180,1,0,0,0,0,52,44,35
+Missouri,Perry,122,99,23,0,0,0,0,97,74,43
+Missouri,Saint Charles,122,98,17,7,0,0,0,129,74,43
+Missouri,Saint Louis,181,148,32,1,0,0,0,112,61,41
+Missouri,Sainte Genevieve,122,107,15,0,0,0,0,100,64,42
+Missouri,St. Louis City,182,107,73,2,0,0,0,117,73,45
+Montana,Cascade,239,235,4,0,0,0,0,54,27,15
+Montana,Custer,242,231,11,0,0,0,0,80,47,41
+Montana,Fergus,243,239,4,0,0,0,0,58,47,42
+Montana,Flathead,243,219,24,0,0,0,0,69,50,38
+Montana,Gallatin,243,233,10,0,0,0,0,73,38,23
+Montana,Lewis and Clark,244,223,21,0,0,0,0,71,50,43
+Montana,Lincoln,243,187,56,0,0,0,0,96,66,30
+Montana,Missoula,243,162,77,4,0,0,0,140,71,43
+Montana,Phillips,243,239,4,0,0,0,0,70,43,37
+Montana,Powder River,243,210,33,0,0,0,0,84,51,40
+Montana,Ravalli,243,231,12,0,0,0,0,76,40,18
+Montana,Richland,239,233,6,0,0,0,0,55,46,40
+Montana,Sanders,243,231,12,0,0,0,0,82,41,23
+Montana,Silver Bow,243,217,25,1,0,0,0,102,51,19
+Montana,Yellowstone,243,238,4,0,1,0,0,154,35,21
+Nebraska,Cass,299,283,16,0,0,0,0,70,41,20
+Nebraska,Douglas,274,225,48,1,0,0,0,108,56,41
+Nebraska,Gage,165,156,9,0,0,0,0,78,43,20
+Nebraska,Hall,293,277,16,0,0,0,0,81,44,21
+Nebraska,Knox,240,210,30,0,0,0,0,100,54,39
+Nebraska,Lancaster,228,221,7,0,0,0,0,61,45,37
+Nebraska,Sarpy,257,243,14,0,0,0,0,93,44,23
+Nebraska,Scotts Bluff,280,275,5,0,0,0,0,77,27,13
+Nebraska,Washington,207,203,4,0,0,0,0,60,30,13
+Nevada,Carson City,181,159,22,0,0,0,0,77,54,42
+Nevada,Churchill,168,160,8,0,0,0,0,64,47,40
+Nevada,Clark,182,53,121,6,1,1,0,260,90,63
+Nevada,Douglas,181,174,7,0,0,0,0,57,37,13
+Nevada,Elko,181,167,12,2,0,0,0,149,34,15
+Nevada,Lyon,180,170,10,0,0,0,0,71,48,40
+Nevada,Nye,174,142,22,6,3,1,0,294,69,22
+Nevada,Washoe,182,130,52,0,0,0,0,87,64,47
+Nevada,White Pine,186,154,32,0,0,0,0,87,54,44
+New Hampshire,Belknap,181,177,4,0,0,0,0,58,44,34
+New Hampshire,Cheshire,181,161,20,0,0,0,0,80,51,38
+New Hampshire,Coos,181,176,5,0,0,0,0,64,46,41
+New Hampshire,Grafton,181,175,6,0,0,0,0,80,46,37
+New Hampshire,Hillsborough,181,171,10,0,0,0,0,74,48,41
+New Hampshire,Merrimack,120,117,3,0,0,0,0,67,45,39
+New Hampshire,Rockingham,182,168,14,0,0,0,0,90,49,40
+New Jersey,Atlantic,269,257,11,0,1,0,0,176,46,34
+New Jersey,Bergen,274,221,53,0,0,0,0,90,58,39
+New Jersey,Camden,274,210,63,1,0,0,0,108,58,44
+New Jersey,Cumberland,271,246,25,0,0,0,0,84,49,38
+New Jersey,Essex,269,217,52,0,0,0,0,97,57,40
+New Jersey,Gloucester,231,171,57,3,0,0,0,126,64,43
+New Jersey,Hudson,274,212,60,2,0,0,0,115,59,41
+New Jersey,Hunterdon,273,219,54,0,0,0,0,93,58,40
+New Jersey,Mercer,273,217,53,3,0,0,0,119,61,42
+New Jersey,Middlesex,273,228,44,1,0,0,0,101,58,40
+New Jersey,Monmouth,214,193,19,1,1,0,0,161,50,39
+New Jersey,Morris,266,236,30,0,0,0,0,84,51,39
+New Jersey,Ocean,266,223,40,3,0,0,0,105,61,40
+New Jersey,Passaic,213,201,12,0,0,0,0,74,49,37
+New Jersey,Union,274,220,54,0,0,0,0,77,57,35
+New Jersey,Warren,273,228,45,0,0,0,0,76,55,37
+New Mexico,Bernalillo,182,65,110,5,1,0,1,331,84,54
+New Mexico,Dona Ana,273,118,127,23,1,2,2,375,101,54
+New Mexico,Eddy,212,111,80,21,0,0,0,150,100,49
+New Mexico,Lea,181,124,53,4,0,0,0,126,67,45
+New Mexico,Luna,181,143,30,5,2,0,1,775,61,22
+New Mexico,Rio Arriba,228,203,24,1,0,0,0,105,51,43
+New Mexico,San Juan,273,147,115,9,1,1,0,220,84,50
+New Mexico,Sandoval,269,204,64,1,0,0,0,101,74,45
+New Mexico,Santa Fe,181,146,35,0,0,0,0,97,59,45
+New Mexico,Taos,177,159,18,0,0,0,0,84,52,19
+New Mexico,Valencia,270,226,44,0,0,0,0,93,58,44
+New York,Albany,273,240,33,0,0,0,0,87,52,38
+New York,Bronx,274,210,63,1,0,0,0,101,61,42
+New York,Chautauqua,269,244,21,4,0,0,0,140,50,39
+New York,Dutchess,254,234,20,0,0,0,0,97,49,38
+New York,Erie,274,219,53,2,0,0,0,150,58,39
+New York,Essex,273,259,12,2,0,0,0,115,48,41
+New York,Hamilton,260,255,5,0,0,0,0,71,44,36
+New York,Jefferson,268,260,8,0,0,0,0,84,44,34
+New York,Kings,272,228,44,0,0,0,0,79,54,31
+New York,Monroe,274,235,37,2,0,0,0,126,54,38
+New York,Nassau,269,261,8,0,0,0,0,58,43,20
+New York,New York,274,207,66,1,0,0,0,105,59,41
+New York,Niagara,268,250,17,1,0,0,0,133,48,37
+New York,Oneida,257,251,6,0,0,0,0,81,38,18
+New York,Onondaga,273,264,9,0,0,0,0,67,47,36
+New York,Orange,271,249,22,0,0,0,0,65,48,35
+New York,Oswego,262,257,5,0,0,0,0,58,44,35
+New York,Putnam,249,227,22,0,0,0,0,100,50,37
+New York,Queens,274,198,73,3,0,0,0,126,66,42
+New York,Richmond,273,236,36,1,0,0,0,105,54,38
+New York,Rockland,273,249,24,0,0,0,0,90,49,38
+New York,Saratoga,272,264,8,0,0,0,0,74,44,35
+New York,Steuben,274,259,15,0,0,0,0,67,47,37
+New York,Suffolk,274,226,40,8,0,0,0,133,65,42
+New York,Tompkins,239,227,12,0,0,0,0,67,46,39
+New York,Wayne,262,252,9,1,0,0,0,101,45,35
+New York,Westchester,273,236,37,0,0,0,0,100,54,38
+North Carolina,Alexander,214,195,19,0,0,0,0,90,50,40
+North Carolina,Avery,270,250,20,0,0,0,0,77,49,39
+North Carolina,Buncombe,273,255,18,0,0,0,0,74,48,37
+North Carolina,Caldwell,214,193,21,0,0,0,0,74,50,40
+North Carolina,Carteret,239,227,12,0,0,0,0,77,46,38
+North Carolina,Caswell,214,203,11,0,0,0,0,64,49,40
+North Carolina,Catawba,178,143,35,0,0,0,0,78,56,35
+North Carolina,Cumberland,273,219,53,1,0,0,0,115,60,41
+North Carolina,Davidson,178,148,30,0,0,0,0,80,55,35
+North Carolina,Durham,273,251,22,0,0,0,0,93,49,40
+North Carolina,Edgecombe,264,245,19,0,0,0,0,93,49,38
+North Carolina,Forsyth,243,184,58,1,0,0,0,137,59,44
+North Carolina,Graham,213,173,37,3,0,0,0,112,61,43
+North Carolina,Granville,213,192,20,1,0,0,0,112,50,42
+North Carolina,Guilford,273,216,57,0,0,0,0,84,54,43
+North Carolina,Haywood,214,174,39,1,0,0,0,108,58,44
+North Carolina,Johnston,273,245,27,1,0,0,0,140,51,39
+North Carolina,Lenoir,210,186,23,1,0,0,0,108,54,39
+North Carolina,Lincoln,213,173,39,1,0,0,0,108,58,44
+North Carolina,Macon,240,229,11,0,0,0,0,97,47,33
+North Carolina,Martin,258,251,7,0,0,0,0,80,44,35
+North Carolina,Mecklenburg,274,205,67,2,0,0,0,119,67,44
+North Carolina,Mitchell,172,163,9,0,0,0,0,65,45,24
+North Carolina,Montgomery,240,217,23,0,0,0,0,80,50,38
+North Carolina,New Hanover,271,253,18,0,0,0,0,80,47,36
+North Carolina,Northampton,254,239,15,0,0,0,0,65,45,19
+North Carolina,Person,212,198,14,0,0,0,0,90,49,41
+North Carolina,Pitt,273,255,18,0,0,0,0,97,48,37
+North Carolina,Rockingham,208,188,20,0,0,0,0,80,50,42
+North Carolina,Rowan,273,223,50,0,0,0,0,87,55,44
+North Carolina,Swain,271,251,20,0,0,0,0,80,48,35
+North Carolina,Union,213,187,26,0,0,0,0,100,51,42
+North Carolina,Wake,274,226,47,1,0,0,0,122,54,42
+North Carolina,Yancey,211,172,39,0,0,0,0,93,61,44
+North Dakota,Billings,241,239,2,0,0,0,0,54,44,38
+North Dakota,Burke,240,230,10,0,0,0,0,77,46,39
+North Dakota,Burleigh,244,223,21,0,0,0,0,87,48,32
+North Dakota,Cass,243,226,17,0,0,0,0,71,48,37
+North Dakota,Dunn,240,232,8,0,0,0,0,64,46,37
+North Dakota,McKenzie,210,206,4,0,0,0,0,61,45,35
+North Dakota,Mercer,243,236,7,0,0,0,0,71,44,35
+North Dakota,Oliver,242,214,28,0,0,0,0,84,52,39
+North Dakota,Ward,238,232,6,0,0,0,0,66,44,37
+Ohio,Allen,243,199,44,0,0,0,0,97,58,40
+Ohio,Ashtabula,178,152,21,5,0,0,0,133,58,40
+Ohio,Athens,80,77,3,0,0,0,0,63,40,23
+Ohio,Belmont,240,231,9,0,0,0,0,61,35,15
+Ohio,Butler,273,169,100,4,0,0,0,119,68,46
+Ohio,Clark,272,203,68,1,0,0,0,129,61,42
+Ohio,Clermont,273,216,56,1,0,0,0,129,55,41
+Ohio,Clinton,214,187,26,1,0,0,0,140,54,41
+Ohio,Columbiana,40,40,0,0,0,0,0,40,28,16
+Ohio,Cuyahoga,244,143,95,5,1,0,0,156,74,46
+Ohio,Delaware,183,169,14,0,0,0,0,100,48,38
+Ohio,Fayette,128,126,2,0,0,0,0,64,46,35
+Ohio,Franklin,244,182,60,2,0,0,0,143,65,43
+Ohio,Geauga,177,151,24,2,0,0,0,119,58,41
+Ohio,Greene,211,179,31,1,0,0,0,119,54,40
+Ohio,Hamilton,274,151,119,3,1,0,0,151,71,48
+Ohio,Harrison,37,34,3,0,0,0,0,67,49,25
+Ohio,Jefferson,243,153,90,0,0,0,0,97,65,45
+Ohio,Knox,184,166,17,1,0,0,0,119,50,41
+Ohio,Lake,243,197,42,4,0,0,0,150,64,40
+Ohio,Lawrence,239,203,36,0,0,0,0,74,54,40
+Ohio,Licking,184,165,17,2,0,0,0,115,51,40
+Ohio,Lorain,182,167,14,1,0,0,0,115,48,37
+Ohio,Lucas,240,190,45,5,0,0,0,119,67,41
+Ohio,Madison,183,161,22,0,0,0,0,90,54,40
+Ohio,Mahoning,227,183,41,3,0,0,0,129,58,42
+Ohio,Medina,253,213,38,2,0,0,0,126,58,40
+Ohio,Miami,214,186,26,2,0,0,0,122,51,40
+Ohio,Montgomery,273,201,70,2,0,0,0,126,60,42
+Ohio,Noble,227,203,24,0,0,0,0,93,51,39
+Ohio,Portage,211,170,37,3,1,0,0,159,64,42
+Ohio,Preble,274,227,45,2,0,0,0,136,58,41
+Ohio,Scioto,243,234,9,0,0,0,0,71,34,14
+Ohio,Stark,253,187,64,2,0,0,0,136,64,44
+Ohio,Summit,253,192,58,3,0,0,0,133,60,41
+Ohio,Trumbull,240,196,42,2,0,0,0,136,58,41
+Ohio,Warren,273,210,60,3,0,0,0,133,64,41
+Ohio,Washington,184,162,22,0,0,0,0,84,54,41
+Ohio,Wood,181,159,22,0,0,0,0,97,54,39
+Oklahoma,Adair,182,155,25,2,0,0,0,119,55,42
+Oklahoma,Canadian,224,163,58,3,0,0,0,108,71,44
+Oklahoma,Carter,251,225,26,0,0,0,0,83,52,29
+Oklahoma,Cleveland,271,175,92,4,0,0,0,105,71,45
+Oklahoma,Comanche,273,182,89,2,0,0,0,126,71,45
+Oklahoma,Creek,214,162,50,2,0,0,0,112,74,45
+Oklahoma,Dewey,266,178,85,3,0,0,0,129,71,46
+Oklahoma,Kay,269,233,36,0,0,0,0,92,53,33
+Oklahoma,Kiowa,196,130,64,2,0,0,0,115,80,47
+Oklahoma,Love,215,139,69,7,0,0,0,150,77,47
+Oklahoma,Mayes,120,112,7,1,0,0,0,112,47,38
+Oklahoma,McClain,216,150,63,3,0,0,0,119,71,46
+Oklahoma,Nowata,257,113,137,7,0,0,0,139,83,52
+Oklahoma,Oklahoma,274,153,116,5,0,0,0,129,77,49
+Oklahoma,Osage,226,163,56,5,2,0,0,172,77,44
+Oklahoma,Ottawa,181,134,40,3,4,0,0,176,64,43
+Oklahoma,Pittsburg,256,195,57,4,0,0,0,139,61,43
+Oklahoma,Pontotoc,61,50,11,0,0,0,0,90,58,44
+Oklahoma,Sequoyah,189,159,28,2,0,0,0,122,56,38
+Oklahoma,Tulsa,274,161,102,9,2,0,0,185,80,47
+Oregon,Baker,181,158,22,1,0,0,0,105,54,18
+Oregon,Benton,181,170,11,0,0,0,0,64,43,16
+Oregon,Clackamas,179,178,1,0,0,0,0,55,39,23
+Oregon,Columbia,181,180,1,0,0,0,0,51,38,25
+Oregon,Crook,175,169,6,0,0,0,0,66,37,12
+Oregon,Deschutes,181,171,9,0,1,0,0,153,32,13
+Oregon,Douglas,46,31,15,0,0,0,0,64,57,42
+Oregon,Grant,181,123,58,0,0,0,0,89,69,35
+Oregon,Harney,181,146,35,0,0,0,0,96,59,25
+Oregon,Jackson,181,157,24,0,0,0,0,73,54,34
+Oregon,Jefferson,181,163,18,0,0,0,0,76,50,14
+Oregon,Josephine,181,138,41,2,0,0,0,125,75,20
+Oregon,Klamath,181,144,36,1,0,0,0,103,59,19
+Oregon,Lake,181,164,17,0,0,0,0,91,45,14
+Oregon,Lane,181,99,51,14,17,0,0,196,137,43
+Oregon,Linn,181,162,19,0,0,0,0,70,52,20
+Oregon,Marion,181,157,24,0,0,0,0,91,53,30
+Oregon,Multnomah,182,167,15,0,0,0,0,73,45,33
+Oregon,Umatilla,181,168,13,0,0,0,0,94,48,31
+Oregon,Union,181,171,10,0,0,0,0,70,38,16
+Oregon,Wallowa,179,166,13,0,0,0,0,64,48,18
+Oregon,Wasco,161,161,0,0,0,0,0,38,18,12
+Oregon,Washington,182,159,23,0,0,0,0,73,52,30
+Pennsylvania,Adams,305,247,58,0,0,0,0,97,55,41
+Pennsylvania,Allegheny,182,95,83,4,0,0,0,129,81,49
+Pennsylvania,Armstrong,243,164,77,2,0,0,0,122,62,44
+Pennsylvania,Beaver,303,225,77,1,0,0,0,112,62,39
+Pennsylvania,Berks,243,199,43,1,0,0,0,101,60,38
+Pennsylvania,Blair,219,177,42,0,0,0,0,97,54,40
+Pennsylvania,Bradford,284,262,22,0,0,0,0,80,48,33
+Pennsylvania,Bucks,122,104,17,1,0,0,0,101,58,41
+Pennsylvania,Cambria,303,219,83,1,0,0,0,119,61,40
+Pennsylvania,Centre,302,263,39,0,0,0,0,84,53,39
+Pennsylvania,Chester,107,103,4,0,0,0,0,80,46,37
+Pennsylvania,Clearfield,105,102,3,0,0,0,0,97,44,37
+Pennsylvania,Cumberland,238,198,40,0,0,0,0,91,55,33
+Pennsylvania,Dauphin,304,236,66,2,0,0,0,112,59,38
+Pennsylvania,Delaware,287,218,68,1,0,0,0,101,60,38
+Pennsylvania,Elk,241,231,9,1,0,0,0,101,48,37
+Pennsylvania,Erie,304,279,25,0,0,0,0,90,47,31
+Pennsylvania,Fayette,283,244,39,0,0,0,0,87,53,37
+Pennsylvania,Franklin,115,105,10,0,0,0,0,84,49,41
+Pennsylvania,Greene,233,205,28,0,0,0,0,100,52,37
+Pennsylvania,Indiana,243,212,30,1,0,0,0,105,52,39
+Pennsylvania,Lackawanna,303,272,31,0,0,0,0,71,51,35
+Pennsylvania,Lancaster,304,168,134,1,1,0,0,152,71,48
+Pennsylvania,Lawrence,119,105,12,2,0,0,0,126,58,40
+Pennsylvania,Lebanon,242,197,44,1,0,0,0,101,57,38
+Pennsylvania,Lehigh,297,257,40,0,0,0,0,87,54,31
+Pennsylvania,Luzerne,117,113,4,0,0,0,0,74,47,39
+Pennsylvania,Lycoming,243,211,32,0,0,0,0,78,54,38
+Pennsylvania,Mercer,243,214,26,3,0,0,0,136,52,39
+Pennsylvania,Monroe,103,93,10,0,0,0,0,74,50,42
+Pennsylvania,Montgomery,243,193,49,1,0,0,0,108,60,39
+Pennsylvania,Northampton,285,272,13,0,0,0,0,93,46,26
+Pennsylvania,Philadelphia,182,116,65,1,0,0,0,105,67,46
+Pennsylvania,Somerset,238,229,9,0,0,0,0,90,46,37
+Pennsylvania,Susquehanna,238,227,11,0,0,0,0,63,45,26
+Pennsylvania,Tioga,276,256,20,0,0,0,0,77,47,33
+Pennsylvania,Washington,302,260,42,0,0,0,0,87,53,38
+Pennsylvania,Westmoreland,243,209,34,0,0,0,0,73,53,37
+Pennsylvania,Wyoming,238,226,12,0,0,0,0,60,43,27
+Pennsylvania,York,298,230,67,1,0,0,0,105,61,40
+Puerto Rico,Bayamon,178,174,4,0,0,0,0,75,25,14
+Puerto Rico,Caguas,181,174,5,0,0,2,0,231,22,9
+Puerto Rico,Catano,146,127,19,0,0,0,0,84,56,23
+Puerto Rico,Fajardo,64,59,5,0,0,0,0,75,35,19
+Puerto Rico,Guayama,55,52,3,0,0,0,0,63,34,15
+Puerto Rico,Guaynabo,69,64,5,0,0,0,0,77,46,21
+Puerto Rico,Mayagnez,166,141,21,3,1,0,0,154,57,32
+Puerto Rico,Ponce,168,156,12,0,0,0,0,99,45,19
+Rhode Island,Kent,210,199,11,0,0,0,0,100,47,36
+Rhode Island,Providence,213,183,29,1,0,0,0,108,55,40
+Rhode Island,Washington,212,189,21,2,0,0,0,129,51,37
+South Carolina,Aiken,204,181,23,0,0,0,0,87,51,37
+South Carolina,Anderson,179,165,14,0,0,0,0,74,48,40
+South Carolina,Berkeley,173,160,13,0,0,0,0,80,50,37
+South Carolina,Charleston,273,226,47,0,0,0,0,84,54,39
+South Carolina,Chesterfield,240,207,33,0,0,0,0,97,53,37
+South Carolina,Darlington,197,181,16,0,0,0,0,84,49,38
+South Carolina,Edgefield,252,228,24,0,0,0,0,71,50,37
+South Carolina,Florence,222,201,21,0,0,0,0,62,50,32
+South Carolina,Greenville,262,186,76,0,0,0,0,90,61,43
+South Carolina,Horry,194,178,16,0,0,0,0,93,50,39
+South Carolina,Lexington,272,246,26,0,0,0,0,70,48,31
+South Carolina,Richland,255,218,37,0,0,0,0,93,54,40
+South Carolina,Spartanburg,271,221,50,0,0,0,0,87,56,43
+South Carolina,York,188,167,21,0,0,0,0,90,51,39
+South Dakota,Brookings,180,162,18,0,0,0,0,87,51,35
+South Dakota,Brown,177,174,3,0,0,0,0,66,33,18
+South Dakota,Clay,181,174,7,0,0,0,0,84,47,36
+South Dakota,Codington,181,157,23,1,0,0,0,101,54,37
+South Dakota,Custer,181,169,12,0,0,0,0,80,49,41
+South Dakota,Hughes,178,175,3,0,0,0,0,58,19,3
+South Dakota,Jackson,181,171,10,0,0,0,0,97,47,40
+South Dakota,Meade,180,180,0,0,0,0,0,49,44,39
+South Dakota,Minnehaha,182,159,23,0,0,0,0,100,51,37
+South Dakota,Pennington,181,138,42,1,0,0,0,116,64,30
+Tennessee,Anderson,122,107,15,0,0,0,0,80,54,43
+Tennessee,Blount,213,175,37,1,0,0,0,115,61,43
+Tennessee,Claiborne,241,233,8,0,0,0,0,74,45,36
+Tennessee,Davidson,274,178,94,2,0,0,0,143,65,44
+Tennessee,DeKalb,237,226,11,0,0,0,0,100,47,36
+Tennessee,Dyer,181,163,17,1,0,0,0,102,50,27
+Tennessee,Hamilton,285,199,85,1,0,0,0,105,64,44
+Tennessee,Jefferson,121,105,16,0,0,0,0,87,54,43
+Tennessee,Knox,273,197,76,0,0,0,0,74,59,42
+Tennessee,Lawrence,179,167,12,0,0,0,0,80,45,19
+Tennessee,Loudon,181,159,22,0,0,0,0,77,51,38
+Tennessee,Madison,175,152,22,1,0,0,0,102,53,30
+Tennessee,Maury,175,159,16,0,0,0,0,79,49,23
+Tennessee,McMinn,174,152,22,0,0,0,0,70,53,30
+Tennessee,Montgomery,176,160,16,0,0,0,0,85,49,25
+Tennessee,Putnam,181,168,13,0,0,0,0,79,45,25
+Tennessee,Roane,156,144,12,0,0,0,0,75,45,30
+Tennessee,Sevier,210,174,36,0,0,0,0,93,58,44
+Tennessee,Shelby,182,131,45,6,0,0,0,129,87,43
+Tennessee,Sullivan,180,154,26,0,0,0,0,87,54,41
+Tennessee,Sumner,181,143,38,0,0,0,0,93,58,39
+Tennessee,Williamson,122,96,24,2,0,0,0,122,64,44
+Tennessee,Wilson,121,105,15,1,0,0,0,122,54,41
+Texas,Atascosa,172,128,42,2,0,0,0,115,63,36
+Texas,Bell,243,179,61,3,0,0,0,129,73,44
+Texas,Bexar,213,109,101,3,0,0,0,129,76,50
+Texas,Bowie,210,150,60,0,0,0,0,99,62,42
+Texas,Brazoria,212,187,24,1,0,0,0,105,54,35
+Texas,Brazos,224,197,27,0,0,0,0,93,52,31
+Texas,Brewster,207,167,40,0,0,0,0,87,58,44
+Texas,Cameron,212,124,85,3,0,0,0,120,71,47
+Texas,Collin,212,169,38,5,0,0,0,143,74,42
+Texas,Dallas,213,137,64,12,0,0,0,148,77,46
+Texas,Denton,212,128,70,13,1,0,0,187,93,46
+Texas,Ector,243,201,42,0,0,0,0,93,54,31
+Texas,El Paso,213,75,123,14,1,0,0,163,94,56
+Texas,Ellis,212,184,28,0,0,0,0,93,56,40
+Texas,Galveston,212,164,44,3,1,0,0,159,64,43
+Texas,Gregg,212,190,21,1,0,0,0,143,51,37
+Texas,Harris,213,64,138,9,2,0,0,179,84,55
+Texas,Harrison,176,112,59,4,1,0,0,173,67,47
+Texas,Hidalgo,212,137,72,3,0,0,0,136,70,45
+Texas,Hood,209,175,28,6,0,0,0,150,64,40
+Texas,Hunt,205,189,16,0,0,0,0,97,50,38
+Texas,Jefferson,212,154,55,3,0,0,0,112,67,44
+Texas,Johnson,210,167,35,8,0,0,0,143,74,43
+Texas,Karnes,209,209,0,0,0,0,0,34,18,5
+Texas,Kaufman,212,158,52,2,0,0,0,112,67,44
+Texas,Kleberg,174,109,61,4,0,0,0,133,66,40
+Texas,Lubbock,229,203,24,2,0,0,0,138,52,22
+Texas,Maverick,203,157,45,1,0,0,0,107,62,32
+Texas,McLennan,243,185,58,0,0,0,0,100,64,42
+Texas,Montgomery,211,137,71,3,0,0,0,126,77,45
+Texas,Navarro,212,164,47,1,0,0,0,101,64,43
+Texas,Nueces,181,121,59,1,0,0,0,106,63,45
+Texas,Orange,212,171,39,2,0,0,0,108,58,40
+Texas,Parker,210,173,30,7,0,0,0,147,61,41
+Texas,Polk,241,232,9,0,0,0,0,97,46,33
+Texas,Potter,243,225,17,1,0,0,0,108,46,24
+Texas,Randall,220,148,69,3,0,0,0,122,80,46
+Texas,Rockwall,208,194,14,0,0,0,0,77,48,35
+Texas,Smith,210,165,39,6,0,0,0,122,67,42
+Texas,Tarrant,213,122,76,13,2,0,0,172,90,47
+Texas,Travis,244,161,81,2,0,0,0,115,73,45
+Texas,Victoria,171,166,5,0,0,0,0,67,46,34
+Texas,Webb,208,138,68,2,0,0,0,114,72,42
+Texas,Wilson,176,176,0,0,0,0,0,44,21,8
+Utah,Box Elder,62,61,1,0,0,0,0,82,45,41
+Utah,Cache,304,221,80,2,1,0,0,154,67,44
+Utah,Carbon,272,234,38,0,0,0,0,74,54,44
+Utah,Davis,304,190,105,9,0,0,0,147,87,46
+Utah,Duchesne,273,166,105,1,1,0,0,177,67,48
+Utah,Garfield,261,217,44,0,0,0,0,93,58,44
+Utah,Iron,304,257,47,0,0,0,0,80,54,43
+Utah,Salt Lake,305,150,135,20,0,0,0,147,97,51
+Utah,San Juan,211,169,42,0,0,0,0,84,61,44
+Utah,Tooele,304,221,79,4,0,0,0,119,68,43
+Utah,Uintah,304,227,77,0,0,0,0,93,64,46
+Utah,Utah,273,171,99,3,0,0,0,119,75,47
+Utah,Washington,273,202,71,0,0,0,0,97,64,46
+Utah,Weber,305,181,120,4,0,0,0,121,74,47
+Vermont,Bennington,181,171,10,0,0,0,0,67,47,38
+Vermont,Chittenden,182,166,16,0,0,0,0,89,49,42
+Vermont,Rutland,182,154,28,0,0,0,0,71,52,38
+Virginia,Albemarle,206,185,21,0,0,0,0,67,51,39
+Virginia,Alexandria City,4,4,0,0,0,0,0,8,8,6
+Virginia,Arlington,254,236,18,0,0,0,0,100,48,34
+Virginia,Bristol City,86,82,4,0,0,0,0,62,45,26
+Virginia,Caroline,121,114,7,0,0,0,0,67,48,39
+Virginia,Carroll,44,44,0,0,0,0,0,23,13,8
+Virginia,Charles,212,201,11,0,0,0,0,74,47,34
+Virginia,Chesterfield,173,165,8,0,0,0,0,80,48,38
+Virginia,Fairfax,253,221,32,0,0,0,0,87,52,37
+Virginia,Fauquier,121,114,7,0,0,0,0,71,48,37
+Virginia,Frederick,208,172,36,0,0,0,0,88,54,38
+Virginia,Giles,239,211,28,0,0,0,0,100,51,40
+Virginia,Hampton City,245,225,20,0,0,0,0,77,49,36
+Virginia,Hanover,116,109,7,0,0,0,0,71,49,41
+Virginia,Henrico,254,225,28,1,0,0,0,112,52,38
+Virginia,Hopewell City,42,42,0,0,0,0,0,23,12,8
+Virginia,Loudoun,206,187,17,2,0,0,0,112,50,37
+Virginia,Lynchburg City,87,86,1,0,0,0,0,55,41,23
+Virginia,Madison,205,184,21,0,0,0,0,93,51,42
+Virginia,Norfolk City,256,253,3,0,0,0,0,62,35,14
+Virginia,Pittsylvania,180,180,0,0,0,0,0,28,8,3
+Virginia,Prince Edward,232,225,7,0,0,0,0,54,47,36
+Virginia,Prince William,166,155,11,0,0,0,0,93,48,38
+Virginia,Richmond City,254,234,20,0,0,0,0,63,48,30
+Virginia,Roanoke,245,219,26,0,0,0,0,80,51,37
+Virginia,Rockbridge,122,119,3,0,0,0,0,71,47,40
+Virginia,Rockingham,206,195,11,0,0,0,0,74,47,36
+Virginia,Salem City,90,86,4,0,0,0,0,62,45,26
+Virginia,Stafford,195,185,10,0,0,0,0,74,47,37
+Virginia,Suffolk City,122,114,7,1,0,0,0,115,48,41
+Virginia,Virginia Beach City,85,81,4,0,0,0,0,59,40,26
+Virginia,Wythe,122,109,13,0,0,0,0,77,51,43
+Washington,Adams,212,212,0,0,0,0,0,36,18,11
+Washington,Asotin,205,176,29,0,0,0,0,84,54,27
+Washington,Benton,212,197,15,0,0,0,0,100,46,34
+Washington,Chelan,212,199,13,0,0,0,0,70,45,18
+Washington,Clallam,212,205,7,0,0,0,0,67,44,35
+Washington,Clark,212,191,21,0,0,0,0,74,50,28
+Washington,Columbia,243,239,4,0,0,0,0,58,44,36
+Washington,Cowlitz,210,209,1,0,0,0,0,54,28,13
+Washington,Franklin,175,174,1,0,0,0,0,59,24,12
+Washington,Garfield,182,178,4,0,0,0,0,71,27,13
+Washington,Grant,212,206,6,0,0,0,0,63,33,17
+Washington,Grays Harbor,212,211,1,0,0,0,0,63,23,14
+Washington,Jefferson,212,211,1,0,0,0,0,53,25,15
+Washington,King,213,176,31,6,0,0,0,143,57,37
+Washington,Kitsap,207,202,5,0,0,0,0,55,36,19
+Washington,Kittitas,210,183,26,0,1,0,0,151,54,15
+Washington,Lewis,212,205,7,0,0,0,0,64,40,16
+Washington,Mason,212,201,11,0,0,0,0,62,34,16
+Washington,Okanogan,212,157,54,1,0,0,0,102,60,28
+Washington,Pend Oreille,209,204,5,0,0,0,0,62,38,18
+Washington,Pierce,212,183,28,1,0,0,0,107,54,42
+Washington,Skagit,212,204,7,1,0,0,0,101,40,31
+Washington,Snohomish,212,172,39,1,0,0,0,106,59,24
+Washington,Spokane,212,195,17,0,0,0,0,66,48,36
+Washington,Stevens,212,168,43,1,0,0,0,103,60,21
+Washington,Thurston,212,210,2,0,0,0,0,55,38,22
+Washington,Walla Walla,212,203,9,0,0,0,0,73,36,16
+Washington,Whatcom,182,179,3,0,0,0,0,74,40,32
+Washington,Whitman,212,212,0,0,0,0,0,43,24,12
+Washington,Yakima,212,164,46,2,0,0,0,109,63,29
+West Virginia,Berkeley,132,118,14,0,0,0,0,78,51,38
+West Virginia,Brooke,212,201,11,0,0,0,0,73,43,18
+West Virginia,Cabell,141,124,17,0,0,0,0,93,54,39
+West Virginia,Gilmer,110,108,2,0,0,0,0,71,47,37
+West Virginia,Greenbrier,120,116,4,0,0,0,0,71,46,40
+West Virginia,Hancock,211,185,26,0,0,0,0,100,51,35
+West Virginia,Harrison,57,51,6,0,0,0,0,64,51,28
+West Virginia,Kanawha,175,144,31,0,0,0,0,90,57,41
+West Virginia,Marion,58,51,7,0,0,0,0,69,54,28
+West Virginia,Marshall,211,148,63,0,0,0,0,99,65,38
+West Virginia,Monongalia,137,124,13,0,0,0,0,77,50,38
+West Virginia,Ohio,171,158,13,0,0,0,0,66,47,37
+West Virginia,Tucker,242,231,11,0,0,0,0,77,48,37
+West Virginia,Wood,142,128,13,1,0,0,0,108,50,39
+Wisconsin,Ashland,272,262,10,0,0,0,0,74,45,35
+Wisconsin,Brown,267,240,25,2,0,0,0,112,51,36
+Wisconsin,Columbia,186,175,11,0,0,0,0,80,48,38
+Wisconsin,Dane,273,230,43,0,0,0,0,87,56,38
+Wisconsin,Dodge,274,238,36,0,0,0,0,93,53,38
+Wisconsin,Door,185,157,23,5,0,0,0,147,74,37
+Wisconsin,Eau Claire,273,244,29,0,0,0,0,74,52,37
+Wisconsin,Fond du Lac,185,175,9,1,0,0,0,108,48,37
+Wisconsin,Forest,270,254,16,0,0,0,0,74,47,37
+Wisconsin,Grant,267,238,29,0,0,0,0,77,51,28
+Wisconsin,Jackson,179,167,11,1,0,0,0,118,45,22
+Wisconsin,Jefferson,183,168,15,0,0,0,0,87,49,39
+Wisconsin,Kenosha,273,209,59,4,1,0,0,164,68,41
+Wisconsin,Kewaunee,185,156,25,3,1,0,0,161,64,40
+Wisconsin,La Crosse,273,245,28,0,0,0,0,67,51,37
+Wisconsin,Manitowoc,182,151,25,4,2,0,0,182,74,39
+Wisconsin,Marathon,187,179,8,0,0,0,0,64,46,35
+Wisconsin,Milwaukee,274,194,75,5,0,0,0,143,67,43
+Wisconsin,Monroe,155,139,15,1,0,0,0,132,51,22
+Wisconsin,Outagamie,273,238,34,1,0,0,0,122,53,38
+Wisconsin,Ozaukee,215,181,29,4,1,0,0,159,71,39
+Wisconsin,Racine,185,148,34,2,1,0,0,164,67,40
+Wisconsin,Rock,186,168,18,0,0,0,0,97,50,40
+Wisconsin,Sauk,273,240,33,0,0,0,0,76,52,37
+Wisconsin,Sheboygan,186,155,24,6,1,0,0,177,80,41
+Wisconsin,Taylor,273,255,18,0,0,0,0,65,46,36
+Wisconsin,Vilas,271,256,15,0,0,0,0,67,45,32
+Wisconsin,Walworth,184,165,16,3,0,0,0,105,51,40
+Wisconsin,Waukesha,271,217,51,3,0,0,0,126,58,40
+Wyoming,Albany,243,142,100,0,1,0,0,151,67,49
+Wyoming,Big Horn,180,179,1,0,0,0,0,58,46,40
+Wyoming,Campbell,212,158,52,0,1,0,1,576,64,43
+Wyoming,Carbon,180,180,0,0,0,0,0,27,17,8
+Wyoming,Converse,182,170,12,0,0,0,0,78,46,41
+Wyoming,Fremont,212,171,41,0,0,0,0,100,58,45
+Wyoming,Johnson,181,177,3,1,0,0,0,101,44,40
+Wyoming,Laramie,182,163,19,0,0,0,0,74,51,43
+Wyoming,Lincoln,273,247,25,1,0,0,0,118,50,40
+Wyoming,Natrona,181,172,9,0,0,0,0,64,48,43
+Wyoming,Park,190,188,2,0,0,0,0,81,35,17
+Wyoming,Platte,178,151,18,4,2,0,3,673,57,16
+Wyoming,Sheridan,212,199,13,0,0,0,0,72,48,42
+Wyoming,Sublette,243,208,34,1,0,0,0,105,54,46
+Wyoming,Sweetwater,212,176,35,0,1,0,0,157,57,43
+Wyoming,Teton,213,200,13,0,0,0,0,100,48,44
+Wyoming,Uinta,181,179,2,0,0,0,0,55,17,6
+Wyoming,Weston,181,179,2,0,0,0,0,58,44,40

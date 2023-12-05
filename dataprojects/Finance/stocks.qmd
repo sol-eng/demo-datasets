@@ -1,0 +1,81 @@
+---
+title: "Stocks"
+format: html
+editor: visual
+---
+
+::: callout-warning
+## Data Manipulation Disclaimer
+
+The data presented here has been intentionally manipulated for exploratory and teaching purposes. It should not be considered accurate or used for any practical applications. Please exercise caution and use it solely for educational or experimental purposes.
+:::
+
+**Source:** https://www.kaggle.com/datasets/aayushmishra1512/faang-complete-stock-data/data
+
+**About:** FAANG is a acronym for **F**acebook (Meta), **A**pple, **A**mazon, **N**etflix, and **G**oogle. This dataset contains historical stock data for FAANG companies.
+
+## Clean up
+
+```{r}
+#| echo: true
+#| output: false
+
+library(tidyverse)
+library(janitor)
+
+# Read in Function
+read_stock <- function(csv, company_name) {
+  read_csv(csv, show_col_types = FALSE, na = "null") |> 
+    mutate(company = company_name) |> 
+    clean_names() |> 
+    select(company, date, open, high, low, close, volume) |> 
+    drop_na()
+}
+  
+# Read in Stock Files
+facebook <- read_stock("Facebook.csv", "Facebook")
+apple <- read_stock("Apple.csv", "Apple")
+amazon <- read_stock("Amazon.csv", "Amazon")
+netflix <- read_stock("Netflix.csv", "Netflix")
+google <- read_stock("Google.csv", "Google")
+
+# Merge Into one Dataframe
+stock_data <- bind_rows(facebook, apple, amazon, netflix, google)
+
+# Save as CSV
+write_csv(stock_data, "stocks.csv")
+```
+
+## Final Data
+
+### Dimensions
+
+`r ncol(stock_data)` Columns
+
+`r nrow(stock_data)` Rows
+
+### Column Information
+
+`company`: Name of company.
+
+`date`: Date.
+
+`open`: Opening price of the stock.
+
+`high`: Maximum price of stock.
+
+`low`: Minimum price of stock.
+
+`close`: Closing price of stock.
+
+`volume`: Number of shares traded of that stock for the day.
+
+## Preview
+
+```{r}
+#| echo: false
+
+library(reactable)
+
+reactable(stock_data)
+```
